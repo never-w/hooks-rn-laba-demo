@@ -1,7 +1,7 @@
-import type {FC} from 'react';
+import type { FC } from 'react';
 import React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Detail from './src/pages/detail';
 import Home from './src/pages/home';
 import Animation from './src/pages/animation';

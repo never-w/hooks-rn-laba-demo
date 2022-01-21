@@ -10,7 +10,9 @@ interface IProps {
 
 const Detail: FC<IProps> = ({ navigation }) => {
   // 设置状态栏颜色 hook
-  useStatusBar('dark-content', true /* 设置状态栏是否为透明 */);
+  useStatusBar({
+    barStyle: 'dark-content',
+  });
 
   // 右上角自定义组件
   const rightCom = useMemo(
@@ -32,8 +34,8 @@ const Detail: FC<IProps> = ({ navigation }) => {
     callback: () => {
       navigation.navigate('Home');
     },
-    backNavigationElementFn: handleBackArrow => (
-      <Text style={{ color: 'red', fontSize: 15, marginRight: 10 }} onPress={handleBackArrow}>
+    backNavigationElementFn: callback => (
+      <Text style={{ color: 'red', fontSize: 15, marginRight: 10 }} onPress={callback}>
         《《《
       </Text>
     ),
