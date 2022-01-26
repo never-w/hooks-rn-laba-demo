@@ -1,10 +1,10 @@
-import type { FC } from 'react';
+import { FC } from 'react';
 import React from 'react';
-import { Button, Text, View, StyleSheet /* Alert */ } from 'react-native';
+import { Button, Text, View, StyleSheet, Alert } from 'react-native';
 import {
   useSafeHeight,
   useLayout,
-  // useNavigationResume,
+  useNavigationResume,
   useStatusBar,
 } from '@fruits-chain/hooks-laba-rn';
 
@@ -21,11 +21,12 @@ const Home: FC<IProps> = ({ navigation }) => {
   // 获取安全区的高度hook
   const safeHeight = useSafeHeight();
   // 布局完成时获取组件的宽高和位置hook
-  const { onLayout, ...layout } = useLayout();
+  const [layout, onLayout] = useLayout();
+
   // 导航/路由/页面再次激活或离开后回来时触发
-  // useNavigationResume(() => {
-  //   Alert.alert('我重新聚焦');
-  // });
+  useNavigationResume(() => {
+    Alert.alert('我重新聚焦');
+  });
 
   return (
     <View style={styles.layoutCenter}>

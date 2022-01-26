@@ -775,17 +775,17 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fruits-chain/hooks-laba-rn@^0.0.10":
-  version "0.0.10"
-  resolved "https://registry.npmjs.org/@fruits-chain/hooks-laba-rn/-/hooks-laba-rn-0.0.10.tgz#36e7b535c79327a4ec3428aa6879602ef984852c"
-  integrity sha512-tYnhBZljTi5tenAND70PFO8QG7fLMugI7W8t9x/i22hiv1y1z7i2zD4cvih0ZBuVd236y5Wnl7SclK25qq9JaQ==
+"@fruits-chain/hooks-laba-rn@^0.0.15":
+  version "0.0.15"
+  resolved "https://registry.npmjs.org/@fruits-chain/hooks-laba-rn/-/hooks-laba-rn-0.0.15.tgz#e2c0b3a2b8aa0585acf166b14c2511141f27c748"
+  integrity sha512-3/Pb7jvQMzsb4scqzxj4Er3xjaRn4WmjApXgF8AVWweYj7WXI6U+COAZJQyyEgT3kEuSBLSs7Cdhqcjri9IJ8A==
   dependencies:
-    "@fruits-chain/hooks-laba" "^0.0.5"
+    "@fruits-chain/hooks-laba" "^0.0.7"
 
-"@fruits-chain/hooks-laba@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.npmjs.org/@fruits-chain/hooks-laba/-/hooks-laba-0.0.5.tgz#2e5c8135ab802650faddfa71a1938156b7e3d149"
-  integrity sha512-Wg/bhRq2lUpbGFHK1nTj8P1RUCUzRTS5rl+bZV0Re40xgpdPnhyNSxLnjc42zJtJLbnVMErOPAr922E16KKCZA==
+"@fruits-chain/hooks-laba@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.npmjs.org/@fruits-chain/hooks-laba/-/hooks-laba-0.0.7.tgz#363563cf84d03dcd2a62db13dc3d7313cc87159c"
+  integrity sha512-g1kdjQBNhiu8JsFNpUEAe+1EJV1RUkphNyXwJXXlFo6Be+yiJ2q9wi6NgsL3X5L87z4K3kcdELUs/p6YAyyVIQ==
 
 "@fruits-chain/react-native-xiaoshu@^0.0.15":
   version "0.0.15"

@@ -40,7 +40,7 @@ const Detail: FC<IProps> = ({ navigation }) => {
       </Text>
     ),
     isBackHandle: false,
-    backShown: true,
+    backShown: false,
   });
 
   return (
